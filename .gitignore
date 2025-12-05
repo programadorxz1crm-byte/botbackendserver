@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Lockfiles (mantén package-lock si prefieres)
+# yarn.lock
+# pnpm-lock.yaml
+
+# Entorno
+.env
+.env.*.local
+
+# Credenciales de WhatsApp (mantener el marcador)
+auth/*
+!auth/.gitkeep
+
+# Datos
+data/memory.json
+
+# Logs
+logs/
+*.log
+
+# SO / Editor
+.DS_Store
+.vscode/
